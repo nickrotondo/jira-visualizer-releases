@@ -32,7 +32,8 @@ secrets, no server, no GitHub login.
 2. **Connect** — click **Connect** and enter your Atlassian site URL
    (`https://yourcompany.atlassian.net`), your email, an API token
    ([create one](https://id.atlassian.com/manage-profile/security/api-tokens)),
-   and the Jira project key to visualize.
+   and the Jira project key to visualize. Add more boards later from the **+**
+   tab — each board gets its own project, component filter, name, and color.
 3. **Explore** — pick an epic from the dashboard to open its dependency graph.
    Hover a ticket to highlight its links; click it to open it in Jira.
 4. **Edit (optional)** — if you can link issues in Jira, drag from one ticket to
@@ -62,6 +63,17 @@ straight to it in Jira.
 <p align="center">
   <img src="docs/dependency-graph-highlight.png" alt="Hovering a ticket highlights its dependency chain and dims the rest" width="820">
 </p>
+
+### 🗂️ Multiple boards
+
+Track multiple Jira projects under one app. Each board has its own project key,
+optional component filter, display name, and color. Switch between boards with the
+tab bar at the top, or press **⌘/Ctrl+1–9** to jump directly to any board by
+position. Your existing project becomes the first board automatically — nothing to
+set up.
+
+Board settings open in an overlay from the gear icon on each tab, keeping the main
+window uncluttered.
 
 ### ✏️ Edit dependencies
 
